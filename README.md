@@ -13,6 +13,8 @@ NOTE:
 2. hidden state -> stores working memory
 
    -- not there in original LSTM (there in original RNN), but present in modern LSTM
+
+3. In the Input Gate, the tanh NN is used to learn what to input and sigmoid NN is used to learn how much to consider out of it. (as the output of sigmoid is between 0 and 1)
    
 
 Stage 2 -> Single LSTM Layer
